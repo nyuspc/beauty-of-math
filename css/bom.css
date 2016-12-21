@@ -1,0 +1,62 @@
+body {
+    width: 1100px;
+}
+.node {
+  cursor: pointer;
+  stroke: #ddd;
+  stroke-width: 1.5px;
+}
+.node:hover {
+  stroke: #eee;
+  stroke-width: 1.5px;
+}
+.node--leaf {
+  fill: white;
+}
+.label {
+  font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+.photo {
+    border-radius: 50px;
+}
+.label,
+.node--root,
+.node--leaf {
+  pointer-events: none;
+}
+
+path.curve {
+    stroke: steelblue;
+    stroke-width: 1.5;
+    fill: none;
+}
+
+.travel-path {
+    fill: none;
+    stroke: grey;
+    stroke-width: 0.5;
+}
+
+.axis-line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 0.5;
+}
+.info {
+    float: right;
+    width: 260px;
+    height: 800px;
+    border-left: 1px solid #eee;
+    padding: 10px;
+}
+
+.var-input {
+    padding: 10px 5px;
+}
+
+.var-input label{
+    font-weight: 500;
+    margin-right: 10px;
+}

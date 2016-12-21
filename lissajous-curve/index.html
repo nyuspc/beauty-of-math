@@ -1,0 +1,22 @@
+<head>
+    <meta charset="utf-8">
+    <link href="../css/bom.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" async
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+</head>
+<body>
+    <h2>利萨茹曲线 / Lissajous Curve</h2>
+    <div class="info">
+        公式 / Equation: </br>
+        $$x=a\sin(pt)$$
+        $$y=b\cos(qt+\phi)$$
+        <div class="var-input"><label>p:</label><input id="speed1" /></div>
+        <div class="var-input"><label>q:</label><input id="speed2" /></div>
+        <div class="var-input"><button id="reset" onClick="resetPlots()">重置</button></div>
+    </div>
+    <svg width="800" height="800"></svg>
+</body>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="LissajousCurve.js"></script>
+</html>
