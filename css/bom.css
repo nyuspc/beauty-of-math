@@ -51,7 +51,9 @@ path.curve {
     border-left: 1px solid #eee;
     padding: 10px;
 }
-
+.red {
+    stroke: red;
+}
 .var-input {
     padding: 10px 5px;
 }
